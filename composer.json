@@ -1,0 +1,38 @@
+{
+	"name": "devinow/database",
+	"description": "Devinow Framework Database Library,Safe and convenient SQL database access in a driver-agnostic way.",
+	"type": "library",
+	"license": "MIT",
+	"keywords": [ "database", "sql", "pdo", "mysql", "postgresql", "pgsql", "sqlite" ],
+	"require": {
+	  "php": ">=8.1.0",
+	  "ext-pdo": "*"
+	},
+	"authors": [
+	  {
+		"name": "Devinow",
+		"email": "info@devinow.xyz",
+		"homepage": "https://devinow.xyz",
+		"role": "Developer"
+	  }
+	],
+	"repositories": [
+	  {
+		  "type": "vcs",
+		  "url": "https://github.com/devinow/database"
+	  }
+	],
+	"support": {
+		  "email": "info@devinow.xyz"
+	},
+	"minimum-stability": "stable",
+	"prefer-stable": true,
+	"autoload": {
+	  "psr-4": {
+		"Devinow\\DB\\": "/"
+	  },
+	  "files": [
+		"loader.php"
+	  ]
+	}
+}
