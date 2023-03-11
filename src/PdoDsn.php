@@ -4,7 +4,7 @@
  * Copyright (c) Devinow (https://devinow.xyz/)
  */
 
-namespace Delight\Db;
+namespace Devinow\Db;
 
 
 final class PdoDsn implements Dsn {

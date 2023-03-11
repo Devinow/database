@@ -4,7 +4,7 @@
  * Copyright (c) Devinow (https://devinow.xyz/)
  */
 
-namespace Delight\Db\Throwable;
+namespace Devinow\Db\Throwable;
 
 
 class EmptyWhereClauseError extends Error {}

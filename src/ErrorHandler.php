@@ -4,19 +4,19 @@
  * Copyright (c) Devinow (https://devinow.xyz/)
  */
 
-namespace Delight\Db;
+namespace Devinow\Db;
 
 
 use PDOException;
-use Delight\Db\Throwable\DatabaseNotFoundError;
-use Delight\Db\Throwable\Error;
-use Delight\Db\Throwable\Exception;
-use Delight\Db\Throwable\IntegrityConstraintViolationException;
-use Delight\Db\Throwable\NoDatabaseSelectedError;
-use Delight\Db\Throwable\SyntaxError;
-use Delight\Db\Throwable\TableNotFoundError;
-use Delight\Db\Throwable\UnknownColumnError;
-use Delight\Db\Throwable\WrongCredentialsError;
+use Devinow\Db\Throwable\DatabaseNotFoundError;
+use Devinow\Db\Throwable\Error;
+use Devinow\Db\Throwable\Exception;
+use Devinow\Db\Throwable\IntegrityConstraintViolationException;
+use Devinow\Db\Throwable\NoDatabaseSelectedError;
+use Devinow\Db\Throwable\SyntaxError;
+use Devinow\Db\Throwable\TableNotFoundError;
+use Devinow\Db\Throwable\UnknownColumnError;
+use Devinow\Db\Throwable\WrongCredentialsError;
 
 
 final class ErrorHandler {

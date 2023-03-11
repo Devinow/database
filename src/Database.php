@@ -4,14 +4,14 @@
  * Copyright (c) Devinow (https://devinow.xyz/)
  */
 
-namespace Delight\Db;
+namespace Devinow\Db;
 
 
-use Delight\Db\Throwable\BeginTransactionFailureException;
-use Delight\Db\Throwable\CommitTransactionFailureException;
-use Delight\Db\Throwable\IntegrityConstraintViolationException;
-use Delight\Db\Throwable\RollBackTransactionFailureException;
-use Delight\Db\Throwable\TransactionFailureException;
+use Devinow\Db\Throwable\BeginTransactionFailureException;
+use Devinow\Db\Throwable\CommitTransactionFailureException;
+use Devinow\Db\Throwable\IntegrityConstraintViolationException;
+use Devinow\Db\Throwable\RollBackTransactionFailureException;
+use Devinow\Db\Throwable\TransactionFailureException;
 
 
 interface Database {

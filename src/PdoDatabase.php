@@ -4,17 +4,17 @@
  * Copyright (c) Devinow (https://devinow.xyz/)
  */
 
-namespace Delight\Db;
+namespace Devinow\Db;
 
 
 use PDO;
 use PDOException;
 use PDOStatement;
-use Delight\Db\Throwable\BeginTransactionFailureException;
-use Delight\Db\Throwable\CommitTransactionFailureException;
-use Delight\Db\Throwable\EmptyValueListError;
-use Delight\Db\Throwable\EmptyWhereClauseError;
-use Delight\Db\Throwable\RollBackTransactionFailureException;
+use Devinow\Db\Throwable\BeginTransactionFailureException;
+use Devinow\Db\Throwable\CommitTransactionFailureException;
+use Devinow\Db\Throwable\EmptyValueListError;
+use Devinow\Db\Throwable\EmptyWhereClauseError;
+use Devinow\Db\Throwable\RollBackTransactionFailureException;
 
 
 final class PdoDatabase implements Database {
